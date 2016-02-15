@@ -4,8 +4,8 @@ $(document).ready(function() {
     //initialization
     $('.scrollspy').scrollSpy();
     $('.fixed-action-btn').openFAB();
-    $('.slider').slider();
-    $('.slider').slider();
+    $('.slider').slider({Indicators:false});
+    $('.slider').slider({Indicators:false});
     $(".button-collapse").sideNav();
     $('.collapsible').collapsible();
     $('.modal-trigger').leanModal();

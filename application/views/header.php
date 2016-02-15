@@ -14,6 +14,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <body>
       <div class="container">
       <header>
+        <div class="slider">
+              <ul class="slides">          
+                <li>
+                     <img src="<?php echo base_url();?>img/jecrc-uni.jpg"> <!-- random image -->
+                </li>
+               </ul>
+        </div>
         <div class="top-nav blue hide-on-large-only">
           <a href="#" data-activates="nav-mobile" class="button-collapse med"><i class="mdi-navigation-menu"></i></a>
         </div>

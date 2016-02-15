@@ -1,28 +1,20 @@
-<?php
+ <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <main>
     <div class="row"></div>
     <div class="row">
-    <div class="slider">
-        <ul class="slides">          
-                <li>
-                     <img src="<?php echo base_url();?>img/jecrc-uni.jpg"> <!-- random image -->
-                </li>
-         </ul>
-     </div>
     </div>
-
     <div class ="row">
         <div class="col s12 m8 l8">
-             <div class="slider" style="height:190px;">
-                <ul class="slides" style="height:190px;">          
+             <div class="white slider">
+                <ul class="slides">  
+                <li>        
                <a href="Http://www.icsce.in">
-                <li>
-                    <div class="card-panel purple">    
+                <div class="card-panel purple">    
                       <h3>ICSCE'17 on the Go</h3>
-                      <h5 class="light grey-text text-lighten-3">Conference Dated 2<sup>nd</sup>-4<sup>th</sup> March'17 </h5>
+                      <h5 class="grey-text text-lighten-3">Conference Dated 2<sup>nd</sup>-4<sup>th</sup> March'17 </h5>
                     <p class="black-text">This conference aims at bringing together, the researchers, scientist, engineers
                      and scholar’s in all area of AI, computational intelligence, machine learning, robotics and expert
                       system, it provides an international forum for the dissemination of original research results,
@@ -30,7 +22,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                        The conference covers wide range of topics from artificial intelligence, machine learning, intelligent agents, ANN in all engineering disciplines including science and bio engineering. Future design 
                        methodologies will also be one of the key topics at the conference. </p>
                     </div>
-                </li></a>
+                    </a>
+                </li>
                 <li>
                     <div class="card-panel purple">
                       <h3>ICSCE'17 on the Go</h3>
@@ -43,7 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col s12 m4 l4">	
             <h4 class="card-panel indigo darken-1 white-text">Latest Events</h4>
             <div class="card-panel blue-grey lighten-5">
-                <marquee scrollamount="3" behavior="scroll" direction="up" id="marquee" overflow:hidden;="">
+                <marquee scrollamount="3" width="100%" behavior="scroll" direction="up" id="marquee" overflow:hidden;="">
                     <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register for ICSCE'17</b></a><hr>
                     <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>ICSCE'17 Dt. 2<sup>nd</sup>-4<sup>th</sup> March'17 </b></a><hr>
                     <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register Now</b></a><hr>							
