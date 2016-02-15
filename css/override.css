@@ -31,13 +31,20 @@ h4 .card-panel{
 
 .container{
     width: 100%;
-    padding-left:19%;
 }
 
 .container .row{
-    margin-left: +0.00rem;
-    margin-right: +0.00rem;
+    margin-left: 10px;
+    margin-right: auto;
 }
 footer.page-footer .footer-copyright{
     height: auto;
+}
+
+.slides ul,.slides li{
+    margin-left: 10px;
+}
+
+.slidDiv .slider .slides li{
+    width: 90%;
 }

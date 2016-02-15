@@ -14,6 +14,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
     </footer>
 </div>
+</div>
+</div>
       <script type="text/javascript" src="<?php echo base_url();?>js/materialize.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>js/scripts.js"></script>
     </body>

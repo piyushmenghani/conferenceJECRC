@@ -31,10 +31,10 @@ class Home extends CI_Controller {
         $this->load->view('footer');
 	}
 
-	public function events()
+	public function conference()
 	{
 		$this->load->view('header');
-        $this->load->view('events');
+        $this->load->view('conference');
         $this->load->view('footer');
 	}
 	public function contact()

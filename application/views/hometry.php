@@ -2,9 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class ="row">
+
         <div class="col s12 m8 l8 slidDiv">
             <div class="purple slider" style="height: 200px;">
                 <ul class="purple slides" style="height: 180px;">  
