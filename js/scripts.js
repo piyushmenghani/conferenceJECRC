@@ -4,11 +4,11 @@ $(document).ready(function() {
     //initialization
     $('.scrollspy').scrollSpy();
     $('.fixed-action-btn').openFAB();
-    $('.slider').slider({full_width: true, indicators: false});
+    $('.slider').slider();
+    $('.slider').slider();
     $(".button-collapse").sideNav();
     $('.collapsible').collapsible();
     $('.modal-trigger').leanModal();
-    $(".dropdown-button").dropdown();
         
     $(window).scroll(function() {
         var h = $('.top-nav').height() + $('.slider').height() + $('.navbar').height();

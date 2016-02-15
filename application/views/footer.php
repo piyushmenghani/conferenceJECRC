@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-</div>
-</div>
     <footer class="blue-grey darken-4 page-footer">
             <div class=" row footer-copyright">
                 <div class="col s12 m9 l8 left">© 2017 Copyright ICSCE</div>
@@ -15,8 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>    
                 </div>
     </footer>
-
-    <script type="text/javascript" src="<?php echo base_url();?>js/materialize.js"></script>
+</div>
+      <script type="text/javascript" src="<?php echo base_url();?>js/materialize.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>js/scripts.js"></script>
     </body>
 </html>

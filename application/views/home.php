@@ -4,27 +4,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <main>
     <div class="row"></div>
+    <div class="row">
+    <div class="slider">
+        <ul class="slides">          
+                <li>
+                     <img src="<?php echo base_url();?>img/jecrc-uni.jpg"> <!-- random image -->
+                </li>
+         </ul>
+     </div>
+    </div>
+
     <div class ="row">
         <div class="col s12 m8 l8">
-            <h4 class="card-panel indigo darken-1 white-text">About Conference@JECRC</h4>
-            <p class="justified card-panel teal blue-grey lighten-5" align="justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+             <div class="slider" style="height:190px;">
+                <ul class="slides" style="height:190px;">          
+               <a href="Http://www.icsce.in">
+                <li>
+                    <div class="card-panel purple">    
+                      <h3>ICSCE'17 on the Go</h3>
+                      <h5 class="light grey-text text-lighten-3">Conference Dated 2<sup>nd</sup>-4<sup>th</sup> March'17 </h5>
+                    <p class="black-text">This conference aims at bringing together, the researchers, scientist, engineers
+                     and scholar’s in all area of AI, computational intelligence, machine learning, robotics and expert
+                      system, it provides an international forum for the dissemination of original research results,
+                       new ideas and practical development experience which concentrate on both theory and practices. 
+                       The conference covers wide range of topics from artificial intelligence, machine learning, intelligent agents, ANN in all engineering disciplines including science and bio engineering. Future design 
+                       methodologies will also be one of the key topics at the conference. </p>
+                    </div>
+                </li></a>
+                <li>
+                    <div class="card-panel purple">
+                      <h3>ICSCE'17 on the Go</h3>
+                      <h5 class="light grey-text text-lighten-3">Conference Dated 2<sup>nd</sup>-4<sup>th</sup> March'17 </h5>
+                    </div>
+                </li>
+         </ul>
         </div>
+    </div>
         <div class="col s12 m4 l4">	
             <h4 class="card-panel indigo darken-1 white-text">Latest Events</h4>
             <div class="card-panel blue-grey lighten-5">
                 <marquee scrollamount="3" behavior="scroll" direction="up" id="marquee" overflow:hidden;="">
-                    <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register Now</b></a><hr>
-                    <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register Now</b></a><hr>
+                    <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register for ICSCE'17</b></a><hr>
+                    <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>ICSCE'17 Dt. 2<sup>nd</sup>-4<sup>th</sup> March'17 </b></a><hr>
                     <img src="<?php echo base_url();?>img/new_1.gif"><a href="#!" target="_blank"><b>Register Now</b></a><hr>							
                 </marquee>	
             </div>
         </div>
+    </div>
+    <div class="row">
+
     </div>
 	</main>

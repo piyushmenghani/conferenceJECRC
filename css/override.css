@@ -25,13 +25,13 @@ footer.page-footer {
 h4 {
     padding: 0;
 }
-
 h4 .card-panel{
     padding:0;
 }
 
 .container{
-    width: 75%;
+    width: 100%;
+    padding-left:19%;
 }
 
 .container .row{
@@ -39,11 +39,5 @@ h4 .card-panel{
     margin-right: +0.00rem;
 }
 footer.page-footer .footer-copyright{
-    height: 60px;
-}
-.areas{
-    padding-left: 20px;
-}
-.areas li{
-    list-style: disc;
+    height: auto;
 }
