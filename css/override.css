@@ -1,0 +1,49 @@
+nav {
+    color: #0000;
+    background-color: #0089ec;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #0089ec;
+}
+*{
+    /*font-family: tahoma;*/
+}
+
+h4 {
+    padding: 0;
+}
+
+h4 .card-panel{
+    padding:0;
+}
+
+.container{
+    width: 75%;
+}
+
+.container .row{
+    margin-left: +0.00rem;
+    margin-right: +0.00rem;
+}
+footer.page-footer .footer-copyright{
+    height: 60px;
+}
+.areas{
+    padding-left: 20px;
+}
+.areas li{
+    list-style: disc;
+}

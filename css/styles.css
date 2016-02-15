@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #311b92;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .top-nav{
+        height: 80px;
+        margin-bottom: 5px;
+    }
+    .container .page-title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .top-nav{
+        height: 80px;
+        margin-bottom: 5px;
+    }
+    .container .page-title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .top-nav{
+        height: 80px;
+        margin-bottom: 5px;
+    }
+    .container .page-title {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.borderTable ,.borderTable th ,.borderTable td{
+    border: 1px solid black;
+
+}
+.navtext nav,.navtext ul,.navtext a {
+    font-size: 1.1rem;
+    color: #000;
+    display: block;
+    padding: 0px 15px;
+    cursor: pointer;
+
+}
